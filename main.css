@@ -182,3 +182,20 @@ body{
 .work-field{
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width:768px) {
+
+    #right-side-box {
+        display: block;
+        width: 98%;
+    }
+    
+    .left-side {
+        width: 98%;
+        display: block;
+        vertical-align: top;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
