@@ -1,0 +1,184 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(src/Ubuntu-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: #fff;
+    font-family: ubuntu;
+}
+
+hr {
+    border-color: #2C2C2C;
+    border-width: 1px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hr-div {
+    padding: 20px 0px 10px 0px;
+}
+
+i.fa {
+    color: #913BFA;
+    font-size: 16px;
+}
+
+body{
+  background-color: #202124;  
+}
+
+.box-color {
+    background-color: #303134;
+    border-radius: 5px;
+}
+
+#right-side-box {
+    display: inline-block;
+    width: 71%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.left-side {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.right-side {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#profile-box {
+    position: relative;
+    width: 100%;
+}
+
+#profile-pic {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#profile-name {
+    text-align: center;
+    background-color: rgba(107, 40, 190, 0.492);
+    position: absolute;
+    width: 100%;
+    padding: 10px 0px;
+    color: #fff;
+    font-family: ubuntu;
+    bottom: 4px;
+}
+
+.list-box {
+    padding: 15px;
+}
+
+
+.list-option li {
+    list-style: none;
+}
+
+.list-option li i {
+    font-size: 20px;
+}
+
+.list-option li span {
+    margin-left: 10px;
+}
+
+
+.skill-box ul li i {
+    font-size: 25px;
+}
+
+.skill-box ul li span {
+    font-size: 20px;
+}
+
+.progress{
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.progress-title {
+    margin-left: 5px;
+    color: #fff;
+    font-family: ubuntu;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.progress-box {
+    background-color: #eee;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.progress-bar {
+    background-color: #913BFA;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.progress-60dar {
+    width: 60%;
+}
+.progress-80dar {
+    width: 80%;
+}
+.progress-90dar {
+    width: 90%;
+}
+.progress-40dar {
+    width: 40%;
+}
+
+#footer {
+    background-color: #913BFA;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.rigth-side-title ul li i{
+    font-size: 35px;
+}
+
+.rigth-side-title ul li span{
+    font-size: 30px;
+}
+.work-dis ul {
+    list-style: none;
+}
+
+.work-dis {
+    padding: 15px;
+}
+
+.padding15 {
+    padding: 0px 15px 15px 15px;
+}
+
+.work-name h2{
+    color: #fff;
+    font-family: ubuntu;
+    font-size: 20px;
+}
+
+.work-field{
+    margin-bottom: 30px;
+}
